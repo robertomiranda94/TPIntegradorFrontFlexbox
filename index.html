@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Codo a Codo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-navigation-logo">
+            <div class="header-nav  desktop-menu">
+                <div class="logo-container">
+                    <a href="#"><img src="/assets/codoacodo.png" alt="Logo"></a>
+                    <h2>Conf Bs As</h2>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul class="nav-list  desktop-menu">
+                    <li><a class="nav-link conference-link" href="#laConferencia">La conferencia</a></li>
+                    <li><a class="nav-link" href="#oradores">Los oradores</a></li>
+                    <li><a class="nav-link" href="#lugarYFecha">El lugar y la fecha</a></li>
+                    <li><a class="nav-link" href="#convierteteEnOrador">Conviértete en orador</a></li>
+                    <li><a class="nav-link buy-tickets-link" href="#">Comprar tickets</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Menu hamburguesa -->
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Top Navigation Menu -->
+            <div class="nav-mobile header-navigation-logo">
+                <div class="topnav">
+                    <div class="header-nav ">
+                        <div class="header-navigation-logo">
+                            <div class="logo-container">
+                                <a href="#"><img src="/assets/codoacodo.png" alt="Logo"></a>
+                                <h2>Conf Bs As</h2>
+                            </div>
+                        </div>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <a href="#">La conferencia</a>
+                        <a href="#">Los oradores</a>
+                        <a href="#">El lugar y la fecha</a>
+                        <a href="#">Conviértete en orador</a>
+                        <a id="buy-ticket" class="nav-link buy-tickets-link" href="#">Comprar tickets</a>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <!-- Fin Menu Hamburguesa -->
+        </div>
+        <section id="laConferencia">
+            <div class="conference-info">
+                <div class="conference-info-container">
+                    <h1>Conf Bs As</h1>
+                    <p>
+                        Bs As llega por primera vez a Argentina. Un evento para compartir con nuestra comunidad el
+                        conocimiento y experiencia de los expertos que están creando el futuro de internet. Ven a
+                        conocer a miembros del evento, a otros estudiantes de Codo a Codo y los oradores de primer nivel
+                        que tenemos para ti. Te esperamos!
+                    </p>
+                    <div>
+                        <a class="speaker-button" href="#convierteteEnOrador">Quiero ser orador</a>
+                        <a class="ticket-button" href="#">Comprar tickets</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="container">
+            <section id="oradores">
+                <h2 class="speaker-title">
+                    <div class="first-title">CONOCE A LOS</div>
+                    <div class="second-title">ORADORES</div>
+                </h2>
+                <div class="speakers">
+                    <div class="speaker">
+                        <img src="/assets/steve.jpg" alt="Steve Jobs" class="speaker-image">
+                        <div class="speaker-info-container">
+                            <div class="speaker-tags">
+                                <h4 class="first-tag">JavaScript</h4>
+                                <h4 class="second-tag">React</h4>
+                            </div>
+                            <h2 class="speaker-name">Steve Jobs</h2>
+                            <p class="speaker-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, tenetur sit soluta
+                                magni adipisci cupiditate tempora, fugit rem ratione obcaecati laboriosam ducimus sint
+                                enim consequuntur a odio blanditiis maxime quaerat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <img src="/assets/bill.jpg" alt="Bill Gates" class="speaker-image">
+                        <div class="speaker-info-container">
+                            <div class="speaker-tags">
+                                <h4 class="first-tag">JavaScript</h4>
+                                <h4 class="second-tag">React</h4>
+                            </div>
+                            <h2 class="speaker-name">Bill Gates</h2>
+                            <p class="speaker-info">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ex veniam eligendi aut
+                                itaque numquam incidunt asperiores consequatur dolor quae odio molestias culpa,
+                                repellendus explicabo laborum laudantium accusantium magnam error.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="speaker">
+                        <img src="/assets/ada.jpeg" alt="Ada Lovelace" class="speaker-image">
+                        <div class="speaker-info-container">
+                            <div class="speaker-tags">
+                                <h4 class="first-tag-ada">Negocios</h4>
+                                <h4 class="second-tag-ada">Startups</h4>
+                            </div>
+                            <h2 class="speaker-name">Ada Lovelace</h2>
+                            <p class="speaker-info">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates perspiciatis quae
+                                delectus expedita aperiam sequi adipisci soluta, dolores iusto dolorum? Sequi porro enim
+                                eius optio commodi voluptatibus labore vel nihil?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="lugarYFecha">
+                <div class="location-date">
+                    <div class="location-date-img-container">
+                        <img src="/assets/honolulu.jpg" alt="imagen playa">
+                    </div>
+                    <div id="info-date" class="location-date-info-container">
+                        <h2>Bs As - Octubre</h2>
+                        <p>
+                            Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados
+                            Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque
+                            el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la
+                            ciudad y el condado de Honolulu han formado una ciudad-condado consolidada que cubre toda la
+                            ciudad (aproximadamente 600km2 de superficie).
+                        </p>
+                        <a href="" class="location-date-anchor">Conocé más</a>
+                    </div>
+                </div>
+            </section>
+            <section id="convierteteEnOrador">
+                <div class="become-speaker">
+                    <h2 class="speaker-title">
+                        <div class="first-title">CONVIERTETE EN UN</div>
+                        <div class="second-title">ORADOR</div>
+                    </h2>
+                    <p class="speaker-description">
+                        Anótate como orador para dar una <span class="ignite-talk">charla
+                            ignite</span>. Cuentanos de que quieres Hablar!
+                    </p>
+                    <form class="speaker-form">
+                        <div class="speaker-name">
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="text" placeholder="Apellido" required>
+                        </div>
+                        <div>
+                            <textarea name="" id="" cols="44" rows="6" placeholder="Sobre qué quieres hablar?"
+                                required></textarea>
+                        </div>
+                        <p class="form-paragraph">Recuerda incluir un titulo para tu charla</p>
+                        <div class="form-submit">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="">Preguntas Frecuentes</a>
+            <a href="">Contactanos</a>
+            <a href="">Prensa</a>
+            <a href="">Conferencias</a>
+            <a href="">Terminos y condiciones</a>
+            <a href="">Privacidad</a>
+            <a href="">Estudiantes</a>
+        </div>
+    </footer>
+
+<script src="/js/script.js"></script>
+</body>
+
+</html>
