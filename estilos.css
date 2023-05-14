@@ -90,7 +90,7 @@ a {
 }
 
 .conference-info {
-    background: linear-gradient(to bottom, #00000085, #00000085), url("/assets/ba1.jpg");
+    background: linear-gradient(to bottom, #00000085, #00000085), url("assets/ba1.jpg");
     height: 80vh;
     background-size: cover;
     background-position: center;
